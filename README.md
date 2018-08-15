@@ -5,7 +5,7 @@ language of alphabet, language of word, length of specified language alphabet in
 
 
 * alphabet.py has functions as follows
-  * is_hanja() check whether a character is Chinese or not.
+  * is_hanja() check whether a character is Chinese or not. (unihan)
   * is_hangul() check whether a character is Korean or not.
   * is_alpha() check whether a character is English or not.
   * is_num() check whether a character is number or not.
@@ -14,10 +14,9 @@ language of alphabet, language of word, length of specified language alphabet in
 
 Han character is originated from China but adopted and changed in neighbor countries like Japan and Korea.
 In Unicode, multiple character sets of the so-called CJK languages are mapped into a single set of unified characters, unihan.
-
-https://en.wikipedia.org/wiki/Han_unification
+(https://en.wikipedia.org/wiki/Han_unification)
   
 * unihan.py has functions as follows
-  * is_chinese_unihan()
-  * is_japanese_unihan()
-  * is_korean_unihan()
+  * is_chinese_unihan() check whether a han character is used in China or not
+  * is_japanese_unihan() check whether a han character is used in Japan or not
+  * is_korean_unihan() check whether a han character is used in Korea or not
