@@ -15,6 +15,7 @@ language of alphabet, language of word, length of specified language alphabet in
 Han character is originated from China but adopted and changed in neighbor countries like Japan and Korea.
 In Unicode, multiple character sets of the so-called CJK languages are mapped into a single set of unified characters, unihan.
 (https://en.wikipedia.org/wiki/Han_unification)
+Unihan_IRGSources.txt in http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip has the information to identify countries where each han character is used or not.
   
 * unihan.py has functions as follows
   * is_chinese_unihan() check whether a han character is used in China or not
